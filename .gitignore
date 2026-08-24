@@ -1,0 +1,31 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Only track /hardware and /README.md
+# ==============================================================================
+
+# Ignore everything in the root directory
+/*
+
+# Whitelist .gitignore itself
+!/.gitignore
+
+# Whitelist root README.md
+!/README.md
+
+# Whitelist hardware folder and all its contents
+!/hardware/
+!/hardware/**
+
+# ------------------------------------------------------------------------------
+# KiCad temporary, backup, lock and history files to ignore inside hardware
+# ------------------------------------------------------------------------------
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*-bak
+*_bak
+*.lck
+~*
+.history/
+_autosave-*
