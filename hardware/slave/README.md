@@ -84,17 +84,17 @@
 | **`U1`** | **ATtiny1604-SS** | SOIC-14 | ไมโครคอนโทรลเลอร์ประจำบอร์ดลูก ตรวจจับทิศทางการเชื่อมต่อและควบคุม MUX |
 | **`U2`** | **74HC153** | SOIC-16 | ไอซี Dual 4-to-1 Data Selector / Multiplexer ทำหน้าที่สลับเลือกรับสัญญาณ Data จาก 1 ใน 4 ทิศทาง |
 | **`U3`** | **74AHCT1G125** | SOT-23-5 | ไอซี High-Speed Buffer ทำหน้าที่ฟื้นฟูสัญญาณข้อมูล (Waveform Reshaping / Buffering) ก่อนส่งเข้าหลอด LED |
-| **`MOD1 - MOD16`** | **CJMCU-2812-4** | Custom Module (2x2 LEDs) | โมดูลไฟ LED RGB Addressable รวม 16 โมดูล = 64 หลอด LED |
-| **`C_MOD1 - C_MOD16`** | **100nF** | SMD 0805 HandSolder (B.Cu) | ตัวเก็บประจุ Decoupling ประจำแต่ละโมดูล LED (รวม 16 ตัว, ขนาด Pad บัดกรีมือง่าย) |
+| **`MOD1 - MOD16`** | **WS2812_Matrix_2x2** | `ws2812-matrix-2x2:WS2812_Matrix_2x2_15x15mm` | โมดูลไฟ LED RGB Addressable แบบ SMD 15x15mm (8 Pads: 4 IN / 4 OUT) รวม 16 โมดูล = 64 หลอด LED |
+| **`C_MOD1 - C_MOD16`** | **100nF** | `Capacitor_SMD:C_0805_2012Metric` (B.Cu) | ตัวเก็บประจุ Decoupling ประจำแต่ละโมดูล LED (รวม 16 ตัว, มาตรฐาน IPC-7351) |
 | **`C1`** | **100nF** | SMD 0603 | ตัวเก็บประจุ Decoupling กรองไฟเลี้ยงความถี่สูงให้ ATtiny1604 (`U1`) |
-| **`C2`** | **10µF** | SMD 0805 | ตัวเก็บประจุ Bulk Capacitor สำรองกระแสไฟเลี้ยงหลัก 5V บนบอร์ด |
+| **`C2`** | **100µF** | `Capacitor_SMD:C_1206_3216Metric` | ตัวเก็บประจุ Bulk Reservoir Capacitor 100µF สำรองกระแสไฟเลี้ยงหลัก 5V และป้องกันไฟตก |
+| **`D_TVS1`** | **SMAJ5.0A** | `Diode_SMD:D_SMA` (DO-214AC) | ไดโอดป้องกันไฟกระชาก (TVS Surge Protection 5V 400W) ป้องกันแรงดันเกินและ ESD จากการดูดติดแม่เหล็ก (Hot-Plug) |
 | **`C3`** | **100nF** | SMD 0603 | ตัวเก็บประจุ Decoupling สำหรับไฟเลี้ยงของชิป Buffer `U3` (74AHCT1G125) |
 | **`C4`** | **100nF** | SMD 0603 | ตัวเก็บประจุ Decoupling สำหรับไฟเลี้ยงของชิป Multiplexer `U2` (74HC153) |
 | **`D1`** | **GREEN LED** | SMD 0805 | หลอดไฟ LED สีเขียว แสดงสถานะการทำงานของบอร์ด |
 | **`R_LED`** | **1kΩ** | SMD 0603 | ตัวต้านทานจำกัดกระแสสำหรับหลอดไฟ LED สถานะ `D1` |
 | **`R_UPDI`** | **4.7kΩ** | SMD 0603 | ตัวต้านทาน Pull-up บนขาสัญญาณโปรแกรม `UPDI_DATA` ดึงไปที่ +5V เพื่อความเสถียร |
 | **`J_PROG`** | **UPDI_PROG** (Conn 1x3) | Pin Header 2.54mm | ขั้วต่อสำหรับต่อเครื่องเบิร์นโปรแกรม UPDI (Pin 1: +5V, Pin 2: UPDI_DATA, Pin 3: GND) |
-| **`J_PWR`** | **DC_5V_IN** (Bornier 2-pin) | Terminal Block 5.08mm | จุดต่อสายไฟ 5V เสริมในกรณีที่ต้องการป้อนไฟตรงเข้าบอร์ดลูก |
 | **`J_NORTH`** | **Mag_North (Female)** | 4-Pin Magnetic 90° | ขั้วต่อแม่เหล็กทิศเหนือ (รับ/ส่งไฟ 5V, GND, DATA_N, SENSE_N) |
 | **`J_EAST`** | **Mag_East (Female)** | 4-Pin Magnetic 90° | ขั้วต่อแม่เหล็กทิศตะวันออก (รับ/ส่งไฟ 5V, GND, DATA_E, SENSE_E) |
 | **`J_SOUTH`** | **Mag_South (Male)** | 4-Pin Magnetic 90° | ขั้วต่อแม่เหล็กทิศใต้ (รับ/ส่งไฟ 5V, GND, DATA_S, SENSE_S) |
