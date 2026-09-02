@@ -6724,7 +6724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7280,7 +7280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 303.53 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7547,7 +7547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 359.41 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -7705,7 +7705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.65 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7784,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.65 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -7863,7 +7863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.65 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -7942,7 +7942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 359.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8021,7 +8021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 359.41 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -8540,7 +8540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 303.53 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8869,7 +8869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 359.41 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9302,7 +9302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 303.53 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9644,7 +9644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.77 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -9975,7 +9975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 303.53 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10148,7 +10148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 247.65 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10482,4 +10482,154 @@
 		)
 	)
 	(embedded_fonts no)
+	(label "DOUT1"
+		(at 205.74 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74cfb8c5-b858-4fd0-8949-0e7dad863e29")
+	)
+	(label "DOUT2"
+		(at 261.62 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b72d5178-87b7-42e4-9b85-8e9674e631da")
+	)
+	(label "DOUT3"
+		(at 317.5 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e0d182-2c79-4b88-bef7-27e94e25b495")
+	)
+	(label "DOUT4"
+		(at 264.16 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44aabf3a-92c5-4a72-876d-ba9f93981e93")
+	)
+	(label "DOUT5"
+		(at 205.74 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d2e643-8481-462c-a0df-361959771cf1")
+	)
+	(label "DOUT6"
+		(at 261.62 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ae4ef13-af27-42e6-9ebc-f5463863de10")
+	)
+	(label "DOUT7"
+		(at 317.5 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91342f12-34e0-45fb-b75b-313753ecaca1")
+	)
+	(label "DOUT8"
+		(at 264.16 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbb4c026-5c58-44dd-9e8c-d62ee4b9a86a")
+	)
+	(label "DOUT9"
+		(at 205.74 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7df4be0f-abdd-4cf4-92b2-3ecf12ca544b")
+	)
+	(label "DOUT10"
+		(at 261.62 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27dcd466-d390-48e7-b685-846ac8a39609")
+	)
+	(label "DOUT11"
+		(at 317.5 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "425fdbed-50ca-4606-813b-d74473b589c4")
+	)
+	(label "DOUT12"
+		(at 264.16 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23f384b9-7b37-4c59-a81c-102acb063687")
+	)
+	(label "DOUT13"
+		(at 205.74 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c29c7e48-8882-46c6-98e5-63cc42321220")
+	)
+	(label "DOUT14"
+		(at 261.62 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98672023-7cce-47c5-8579-0025e24ff614")
+	)
+	(label "DOUT15"
+		(at 317.5 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a6c5bf6-371e-481d-a64c-ed12fd6c2f8e")
+	)
 )

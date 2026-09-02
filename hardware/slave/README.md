@@ -85,7 +85,7 @@
 | **`U2`** | **74HC153** | SOIC-16 | ไอซี Dual 4-to-1 Data Selector / Multiplexer ทำหน้าที่สลับเลือกรับสัญญาณ Data จาก 1 ใน 4 ทิศทาง |
 | **`U3`** | **74AHCT1G125** | SOT-23-5 | ไอซี High-Speed Buffer ทำหน้าที่ฟื้นฟูสัญญาณข้อมูล (Waveform Reshaping / Buffering) ก่อนส่งเข้าหลอด LED |
 | **`MOD1 - MOD16`** | **CJMCU-2812-4** | Custom Module (2x2 LEDs) | โมดูลไฟ LED RGB Addressable รวม 16 โมดูล = 64 หลอด LED |
-| **`C_MOD1 - C_MOD16`** | **100nF** | SMD 0603 | ตัวเก็บประจุ Decoupling ประจำแต่ละโมดูล LED (รวม 16 ตัว) |
+| **`C_MOD1 - C_MOD16`** | **100nF** | SMD 0805 HandSolder (B.Cu) | ตัวเก็บประจุ Decoupling ประจำแต่ละโมดูล LED (รวม 16 ตัว, ขนาด Pad บัดกรีมือง่าย) |
 | **`C1`** | **100nF** | SMD 0603 | ตัวเก็บประจุ Decoupling กรองไฟเลี้ยงความถี่สูงให้ ATtiny1604 (`U1`) |
 | **`C2`** | **10µF** | SMD 0805 | ตัวเก็บประจุ Bulk Capacitor สำรองกระแสไฟเลี้ยงหลัก 5V บนบอร์ด |
 | **`C3`** | **100nF** | SMD 0603 | ตัวเก็บประจุ Decoupling สำหรับไฟเลี้ยงของชิป Buffer `U3` (74AHCT1G125) |

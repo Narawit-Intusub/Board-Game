@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/lib/esp32-wemos-d1-mini/esp32-wemos-d1-mini.kicad_sym")(options "")(descr "ESP32 Wemos D1 Mini Symbol Library"))
+  (lib (name "ws2812-matrix-2x2")(type "KiCad")(uri "${KIPRJMOD}/lib/ws2812-matrix-2x2/ws2812-matrix-2x2.kicad_sym")(options "")(descr "WS2812 RGB LED Matrix 2x2 Symbol Library"))
+)
